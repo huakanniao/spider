@@ -20,3 +20,4 @@ class mysqlpipeline:
     def close_spider(self,spider):
         self.cursor.close()
         self.conn.close()
+11
